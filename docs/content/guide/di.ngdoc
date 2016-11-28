@@ -204,7 +204,7 @@ angular.module('myApp', [])
     // $rootScope is implicitly injected
   })
   .run(['willBreak', function(willBreak) {
-    // Angular will throw when this runs
+    // Angular will throw an error when this runs
   }]);
 ```
 
